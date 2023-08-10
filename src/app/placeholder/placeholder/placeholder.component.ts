@@ -6,11 +6,12 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./placeholder.component.css']
 })
 export class PlaceholderComponent implements OnInit {
-@Input() header = true
-@Input() lines =0
-  constructor() { }
 
-  ngOnInit(): void {
-  }
+  @Input() header = true
+  @Input() lines =0
+    constructor() { }
+
+    ngOnInit(): void {
+    }
 
 }
