@@ -1,13 +1,13 @@
-import { ModsHomeComponent } from './mods-home/mods-home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AccordionExampleComponent } from './accordion-example/accordion-example.component';
 
 const routes: Routes = [
-  {path:'',component:ModsHomeComponent}
+  {path:"",component:AccordionExampleComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ModsRoutingModule { }
+export class AccordionRoutingModule { }
