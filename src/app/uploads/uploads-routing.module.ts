@@ -1,13 +1,13 @@
-import { ElementsHomeComponent } from './elements-home/elements-home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { UploadsExampleComponent } from './uploads-example/uploads-example.component';
 
 const routes: Routes = [
-  {path:'', component:ElementsHomeComponent}
+  {path:"",component:UploadsExampleComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ElementsRoutingModule { }
+export class UploadsRoutingModule { }
