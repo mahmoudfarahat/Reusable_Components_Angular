@@ -132,7 +132,7 @@ setTimeout(()=>{
     }
 
   }
-
+ 
   onSearch(searchText: string) {
     this.searchText = searchText;
     this.start = 0;
